@@ -1,0 +1,63 @@
+var movie = {
+  title: 'Cool Runnings',
+  year: 1998,
+  description: 'WIN',
+  play: function() {
+    console.log('The movie is playing');
+  }
+};
+
+
+var Movie = function(title, year) {
+  this.title = title;
+  this.year = year;
+  this.reviews = [];
+  this.yearsOld = function() {
+    var today = new Date();
+    return today.getFullYear() - this.year;
+  };
+};
+
+
+
+Student
+function (name) {
+  this.name = name;
+  this.grades = [];
+}
+var tom = new Student('Tom');
+undefined
+tom.name
+"Tom"
+tom.grades
+[]
+tom
+Student {name: "Tom", grades: Array[0]}
+tom.grades.push(95)
+1
+tom.grades.push(82)
+2
+tom.grades.push(100)
+3
+tom.grades
+[95, 82, 100]
+tom
+Student {name: "Tom", grades: Array[3]}
+grades: Array[3]
+0: 95
+1: 82
+2: 100
+length: 3
+__proto__: Array[0]
+name: "Tom"
+__proto__: Object
+var sarah = new Student('Sarah');
+undefined
+sarah
+Student {name: "Sarah", grades: Array[0]}
+sarah.grades.push(100)
+1
+sarah.grades.push(100)
+2
+sarah.grades.push(98)
+3
